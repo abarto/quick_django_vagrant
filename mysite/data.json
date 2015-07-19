@@ -1,0 +1,57 @@
+
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "last_name": "",
+        "is_active": true,
+        "groups": [],
+        "is_superuser": true,
+        "date_joined": "2015-07-19T00:56:30.151Z",
+        "last_login": "2015-07-19T00:58:27.282Z",
+        "email": "admin@quick-django-vagrant.local",
+        "first_name": "",
+        "password": "pbkdf2_sha256$20000$XaNO735y9YmE$3vaHYxRGS7mBPrIZS7nmQCFGuP8urI9Ru54vkXTGN50=",
+        "is_staff": true,
+        "user_permissions": [],
+        "username": "admin"
+    }
+},
+{
+    "model": "polls.question",
+    "pk": 1,
+    "fields": {
+        "question_text": "Is Django awesome?",
+        "pub_date": "2015-07-19T00:58:48Z"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 1,
+    "fields": {
+        "question": 1,
+        "votes": 0,
+        "choice_text": "Yup"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 2,
+    "fields": {
+        "question": 1,
+        "votes": 0,
+        "choice_text": "Of course!"
+    }
+},
+{
+    "model": "polls.choice",
+    "pk": 3,
+    "fields": {
+        "question": 1,
+        "votes": 0,
+        "choice_text": "What kind of a question is that?"
+    }
+}
+]
+
